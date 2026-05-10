@@ -4,6 +4,9 @@ import Home from "./pages/Home";
 import Collection from "./pages/Collection";
 import Useful from "./pages/Useful";
 import Contact from "./pages/Contact";
+import Login from "./pages/Login";
+import Supports from "./pages/Supports";
+import PostDetail from "./pages/PostDetail";
 
 function App() {
   return (
@@ -13,6 +16,12 @@ function App() {
         <Route path="/collection" element={<Collection />} />
         <Route path="/useful" element={<Useful />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/login" element={<Login />} />
+<Route path="/supports" element={<Supports />} />
+<Route
+  path="/post/:id"
+  element={<PostDetail />}
+/>
       </Routes>
     </BrowserRouter>
   );
