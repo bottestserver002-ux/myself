@@ -129,8 +129,3 @@
   min-height: 100vh;
   background: transparent; /* QUAN TRỌNG: không đè background index.html */
 }
-nav {
-  position: sticky;
-  top: 0;
-  z-index: 999;
-}
